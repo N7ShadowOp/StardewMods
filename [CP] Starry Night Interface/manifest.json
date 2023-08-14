@@ -1,0 +1,13 @@
+{
+   "Name": "Starry Night Interface",
+   "Author": "SpringTHZ and ManaKirel",
+   "Version": "1.0.0",
+   "Description": "A purple user interface with a star, moon and night theme.",
+   "UniqueID": "SprngTHZ_Starry_Night_Interface",
+   "MinimumApiVersion": "3.7.3",
+   "UpdateKeys": ["Nexus:15329"],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+    	"MinimumVersion": "1.3.0"
+  }
+}
