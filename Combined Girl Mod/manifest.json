@@ -1,0 +1,32 @@
+{
+   "Name": "Combined Girl Mod",
+   "Author": "Onmyoujin",
+   "Version": "1.6.4",
+   "Description": "A combination of several boy to girl genderswap mods compatible with Content Patcher.",
+   "UniqueID": "Onmyoujin.CombinedGirlMod",
+   "MinimumApiVersion": "3.9.0",
+   "UpdateKeys": [ "Nexus:2941" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+	   "MinimumVersion": "1.20.0"
+   },
+   "Dependencies": [
+      {
+         "UniqueID": "supervortex2004.LewdAbby",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Poltergeister.CuteSprites",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Tanpoponoko.SeasonalOutfits",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Bouhm.NPCMapLocations",
+         "IsRequired": false,
+         "MinimumVersion": "2.6.2"
+      }
+   ]
+}

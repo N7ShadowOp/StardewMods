@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Portraits/Wizard/{{Wizard Portraits}}.png",
+			"When": {
+				"Wizard Portraits |contains=Disabled": false
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/Wizard/{{Wizard Sprites}}.png",
+			"When": {
+				"Wizard Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Wizard": {
+					"MarkerCropOffset": 2
+				}
+			},
+			"When": {
+				"Wizard Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
+		}
+    ]
+}

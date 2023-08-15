@@ -1,0 +1,53 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Alex",
+			"FromFile": "assets/Portraits/Alex/{{Alex Portraits}}.png",
+			"When": {
+				"Alex Portraits |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach",
+			"FromFile": "assets/Portraits/Alex/{{Alex Portraits}}_Beach.png",
+			"When": {
+				"Alex Portraits |contains=Disabled": false
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Alex",
+			"FromFile": "assets/Characters/Alex/{{Alex Sprites}}.png",
+			"When": {
+				"Alex Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Beach",
+			"FromFile": "assets/Characters/Alex/{{Alex Sprites}}_Beach.png",
+			"When": {
+				"Alex Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Alex": {
+					"MarkerCropOffset": 3
+				}
+			},
+			"When": {
+				"Alex Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
+		}
+    ]
+}

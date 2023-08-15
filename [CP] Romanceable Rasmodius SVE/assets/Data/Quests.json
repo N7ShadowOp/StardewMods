@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "Entries": {
+			"111": "ItemDelivery/A Dark Reagent/The wizard wants you to descend into the mines and fetch him a Void Essence. He needs it for some kind of dark magic./Bring Wizard a Void Essence./Wizard 769/-1/1000/-1/true/Ah, you've brought it. You have earned my gratitude. Please, take this in return. Coin means little to me.${{e1}}",
+		    "123": "ItemDelivery/Staff Of Power/The Wizard is creating a staff of phenomenal power. Who knows what it's for. He needs an iridium bar to finish it./Bring Wizard an Iridium Bar./Wizard 337/-1/5000/-1/true/Ah, precious iridium. You've done well, @. You have my eternal thanks.${{e1}}",
+			},
+        },
+	]
+}

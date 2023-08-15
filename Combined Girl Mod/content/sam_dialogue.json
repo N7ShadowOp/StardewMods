@@ -1,0 +1,391 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+				"Thu6": "{{ i18n: jodi.thu6.0 }}#$e#{{ i18n: jodi.thu6.1 | sam_name={{sam_name}} }}$s#$e#{{ i18n: jodi.thu6.2 }}$h#$e#{{ i18n: jodi.thu6.3 }}",
+				"Sun8": "{{ i18n: jodi.sun8.0 }}#$b#{{ i18n: jodi.sun8.1 }}$s#$e#{{ i18n: jodi.sun8.2 | sam_name={{sam_name}} }}",
+				"summer_Tue_inlaw_Sam": "{{ i18n: jodi.summer_tue_inlaw_sam | sam_nick={{sam_nick}} }}$h",
+				"fall_Thu": "{{ i18n: jodi.fall_thu.0 }}#$e#{{ i18n: jodi.fall_thu.1 | sam_name={{sam_name}} }}#$b#{{ i18n: jodi.fall_thu.2 }}$s#$e#{{ i18n: jodi.fall_thu.3 }}",
+				"fall_Thu_inlaw_Sam": "{{ i18n: jodi.fall_thu_inlaw_sam | sam_name={{sam_name}} }}",
+				"winter_Thu": "{{ i18n: jodi.winter_thu | sam_name={{sam_name}} }}",
+				"winter_Thu_inlaw_Sam": "{{ i18n: jodi.winter_thu_inlaw_sam | sam_name={{sam_name}} }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": {
+				"Thu6": "#$1 Kent1#{{ i18n: kent.thu6.0 }}$k#$e#{{ i18n: kent.thu6.1 | sam_name={{sam_name}} }}#$e#{{ i18n: kent.thu6.2 }}$s",
+				"Thu": "{{ i18n: kent.thu.0 }}#$e#{{ i18n: kent.thu.1 }}$s"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Entries": {
+				"winter_Sam": "{{ i18n: married.winter_sam }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Entries": {
+				"OneKid_1": "{{ i18n: married.sam.onekid_1 }}$h",
+				"TwoKids_3": "{{ i18n: married.sam.twokids_3 }}$l"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			"Entries": {
+				"fall_15": "{{ i18n: married.sebastian.fall_15.0 | sam_name={{sam_name}} }}#$e#{{ i18n: married.sebastian.fall_15.1 }}$7"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"Introduction": "{{ i18n: sam.introduction | sam_name={{sam_name}} }}$h",
+				"Resort_Towel": "%{{ i18n: sam.resort_towel | sam_name={{sam_name}} }}",
+				"Mon8": "{{ i18n: sam.mon8.0 | sam_name={{sam_name}} | sam_first={{sam_first}} }}$l#$e#{{ i18n: sam.mon8.1 }}",
+				"Wed10": "{{ i18n: sam.wed10.0 }}$10^{{ i18n: sam.wed10.1 }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"Wed2": "{{ i18n: sebastian.wed2.0 | sam_name={{sam_name}} }}#$e#{{ i18n: sebastian.wed2.1 }}$h#$e#{{ i18n: sebastian.wed2.2 }}",
+				"Wed2_inlaw_Abigail": "{{ i18n: sebastian.wed2_inlaw_abigail | sam_name={{sam_name}} }}",
+				"Wed6": "{{ i18n: sebastian.wed6 | sam_name={{sam_name}} }}$s",
+				"Fri8": "{{ i18n: sebastian.fri8.0 }}$h#$e#{{ i18n: sebastian.fri8.1 | sam_name={{sam_name}} }}$h"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"Mon": "{{ i18n: vincent.mon.0 }}$h#$e#{{ i18n: vincent.mon.1 }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"Sam0": "{{ i18n: engagement.sam0.0 }}$l#$e#{{ i18n: engagement.sam0.1 }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"afterSamShow": "{{ i18n: mail.aftersamshow | sam_name={{sam_name}} }}",
+				"samMessage": "{{ i18n: mail.sammessage | sam_name={{sam_name}} }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Sam": {
+					"11": "{{sam_name}}"
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Sam": {
+					"Reactions": [
+						{
+							"ID": "reaction_1",
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/playSound reward/emote Sam 32/message Sam \"{{ i18n: mreact.sam.r1.script | sam_name={{sam_name}} }}\""
+								}
+							}
+						},
+
+						{
+							"ID": "reaction_4",
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/message Sam \"{{ i18n: mreact.sam.r4.script | sam_name={{sam_name}} }}\""
+								}
+							}
+						}
+					]
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Fields": {
+				"30": {
+					"0": "{{ i18n: weapons.30.0 | sam_name={{sam_name}} }}"
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": {
+				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": {
+					"25": "speak Vincent \"{{ i18n: events.beach.733330.0 | sam_name={{sam_name}} }}$u\"",
+					"64": "speak Sam \"{{ i18n: events.beach.733330.1 }}#$b#{{ i18n: events.beach.733330.2 | sebastian_name={{sebastian_name}} }}$h\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Fields": {
+				"3918601/e 3918600/O Sam/t 610 1700/A samJob1/p Sam/L": {
+					"20": "speak Sam \"{{ i18n: events.farmhouse.3918601.0 | sam_name={{sam_name}} }}$6#$b#{{ i18n: events.farmhouse.3918601.1 }}$h\""
+				},
+				"3918603/e 3918602/O Sam/t 610 1700/A samJob3/p Sam/L": {
+					"10": "speak Vincent \"{{ i18n: events.farmhouse.3918603.0 | sam_name={{sam_name}} }}\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Fields": {
+				"choseFarming": {
+					"10": "speak Vincent \"{{ i18n: events.forest.chosefarming.0 | sam_name={{sam_name}} }}#$b#{{ i18n: events.forest.chosefarming.1 }}$h\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Fields": {
+				"95/e 93/k 94/t 1800 1950/i 136/y 2": {
+					"16": "speak Jodi \"{{ i18n: events.samhouse.95.0 | sam_name={{sam_name}} }}\""
+				},
+				"94/e 93/k 95/t 1800 1950/i 136/y 1": {
+					"12": "speak Jodi \"{{ i18n: events.samhouse.94.0 | sam_name={{sam_name}} }}\""
+				},
+				"46/f Sam 1000/p Sam": {
+					"31": "speak Sam \"$q 80 null#{{ i18n: events.samhouse.46.0.0 }}$s#$r 80 -10 event_snack1#{{ i18n: events.samhouse.46.0.1 | sam_name={{sam_name}} }}#$r 80 50 event_snack2#{{ i18n: events.samhouse.46.0.2 | sam_name={{sam_name}} }}#$r 81 -50 event_snack3#{{ i18n: events.samhouse.46.0.3 | sam_name={{sam_name}} }}\"",
+					"33": "speak Jodi \"$p 80#{{ i18n: events.samhouse.46.1.0 | sam_name={{sam_name}} }}|{{ i18n: events.samhouse.46.1.1 | sam_name={{sam_name}} }}$u\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SebastianRoom",
+			"Fields":  {
+				"enterRobin": {
+					"8": "speak Sebastian \"{{ i18n: events.sebroom.enterRobin.0.0 | sam_name={{sam_name}} }}#$b#{{ i18n: events.sebroom.enterRobin.0.1 }}\"",
+					"16": "speak Robin \"{{ i18n: events.sebroom.enterRobin.1 | sebastian_nick={{sebastian_nick}} }}\""
+				},
+				"Necromancer": {
+					"22": "question fork0 \"{{ i18n: events.sebroom.Necromancer.0 }}#{{ i18n: events.sebroom.Necromancer.1 | sam_name={{sam_name}} }}#{{ i18n: events.sebroom.Necromancer.2 | sebastian_name={{sebastian_name}} }}\""
+				},
+				"finalBossWizard": {
+					"8": "message \"{{ i18n: events.sebroom.finalBossWizard.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"castBeam": {
+					"8": "message \"{{ i18n: events.sebroom.castBeam.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"chargeAhead": {
+					"8": "message \"{{ i18n: events.sebroom.chargeAhead.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"noFriends": {
+					"2": "speak Sebastian \"{{ i18n: events.sebroom.nofriends.0 }}$s#$b#{{ i18n: events.sebroom.nofriends.1 | sam_name={{sam_name}} }}#$b#{{ i18n: events.sebroom.nofriends.2 }}\""
+				},
+				"27/f Sebastian 1500/p Sebastian": {
+					"14": "speak Sebastian \"{{ i18n: events.sebroom.27.0 | sam_name={{sam_name}} }}$7\""
+				},
+				"healedSam": {
+					"6": "message \"{{ i18n: events.sebroom.healedsam.0 | sam_name={{sam_name}} }}\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": {
+				"45/f Sam 1500/t 1200 1600/w sunny": {
+					"19": "textAboveHead Lewis \"{{ i18n: events.town.45.0 | sam_name={{sam_name}} }}\"",
+					"34": "question null \"#{{ i18n: events.town.45.1 | sam_name={{sam_name}} }}#{{ i18n: events.town.45.2 | sam_name={{sam_name}} }}#{{ i18n: events.town.45.3 }}\""
+				},
+				"233104/f Sam 2500/t 2000 2400/w sunny/n samMessage": {
+					"49": "speak Jodi \"{{ i18n: events.town.233104.0 | sam_name={{sam_name}} }}\"",
+					"88": "question fork1 \"#{{ i18n: events.town.233104.1 | sam_name={{sam_name}} }}#{{ i18n: events.town.233104.2 }}\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Sebastian": "{{ i18n: festivals.summer11.sebastian.0 | sam_name={{sam_name}} }}#$e#{{ i18n: festivals.summer11.sebastian.1 | sam_name={{sam_name}} }}$h"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"sam_guitar": "%{{ i18n: strings.animation.sam_guitar | sam_name={{sam_name}} }}",
+				"sam_skateboarding": "%{{ i18n: strings.animation.sam_skateboarding | sam_name={{sam_name}} }}",
+				"sam_work": "%{{ i18n: strings.animation.sam_work | sam_name={{sam_name}} }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			"Entries": {
+				"SamHouse_Sam_Trash": "{{ i18n: strings.locations.samhouse_sam_trash | sam_name={{sam_name}} }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Event.cs.1625": "{{ i18n: strings.cs.1625 }}$s",
+				"Utility.cs.5792": "{{ i18n: strings.cs.5792 | sam_name={{sam_name}} }}",
+				"Utility.cs.5794": "{{ i18n: strings.cs.5794 | sam_name={{sam_name}} }}",
+				"Utility.cs.5806": "{{ i18n: strings.cs.5806 | sam_name={{sam_name}} }}",
+				"Utility.cs.5831": "{{ i18n: strings.cs.5831 | sam_name={{sam_name}} }}",
+				"MapPage.cs.11072": "{{ i18n: strings.cs.11072 | sam_name={{sam_name}} }}",
+				"ItemDeliveryQuest.cs.13568": "{{ i18n: strings.cs.13568 | sam_name={{sam_name}} }}",
+  				"ItemDeliveryQuest.cs.13571": "{{ i18n: strings.cs.13571 | sam_name={{sam_name}} }}",
+				"ItemDeliveryQuest.cs.13574": "{{ i18n: strings.cs.13574 | sam_name={{sam_name}} }}",
+				"sam_acoustic2": "{{ i18n: strings.cs.sam_acoustic2 | sam_name={{sam_name}} }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"SamHouse.9": "{{ i18n: strings.maps.samhouse.9 | sam_name={{sam_name}} }}",
+				"SamHouse.11": "{{ i18n: strings.maps.samhouse.11 | sam_name={{sam_name}} }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sam",
+			"Entries": {
+				"fall_11.001": "{{ i18n: strings.schedules.sam.fall_11.001 }}"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sebastian",
+			"Entries": {
+				"Fri.000": "{{ i18n: strings.schedules.sebastian.fri.000 | sam_name={{sam_name}} }}$h",
+				"marriage_Fri.001": "{{ i18n: strings.schedules.sebastian.marriage_fri.001 | sam_name={{sam_name}} }}$h"
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		}
+    ]
+}

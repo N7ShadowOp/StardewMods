@@ -1,0 +1,242 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"Resort_Leaving": "{{ i18n: abby.resort_leaving | willy_name={{willy_name}} }}",
+				"Resort": "{{ i18n: abby.resort.0 | willy_name={{willy_name}} }}$s#$b#{{ i18n: abby.resort.1 }}$s"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+				"Resort_Entering": "{{ i18n: caroline.resort_entering | willy_name={{willy_name}} }}"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"Resort_Entering": "{{ i18n: leah.resort_entering | willy_name={{willy_name}} }}$h",
+				"Resort_Wander": "{{ i18n: leah.resort_wander.0 }}#$e#{{ i18n: leah.resort_wander.1 | willy_name={{willy_name}} }}$h"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"Resort_Entering": "{{ i18n: maru.resort_entering | willy_name={{willy_name}} }}",
+				"Resort_Shore": "{{ i18n: maru.resort_shore.0 | willy_name={{willy_name}} }}#{{ i18n: maru.resort_shore.1 }}#{{ i18n: maru.resort_shore.2 }}"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"Resort": "{{ i18n: pam.resort | willy_name={{willy_name}} }}"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"Resort_Shore": "{{ i18n: sebastian.resort_shore.0 | willy_name={{willy_name}} }}#$b#{{ i18n: sebastian.resort_shore.1 }}$h"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"PurchasedItem_1_QualityHigh_Willy": "{{ i18n: extra.purchased1.hq.willy.0 }}#$b# {{ i18n: extra.purchased1.hq.willy.1 | willy_name={{willy_name}} }} #$b#{{ i18n: extra.purchased1.hq.willy.2 }}$h#$b#{{ i18n: extra.purchased1.hq.willy.3 }}#$e# {{ i18n: extra.purchased1.hq.willy.4 }}",
+				"PurchasedItem_1_QualityLow_Willy": "{{ i18n: extra.purchased1.lq.willy.0 }}#$b# {{ i18n: extra.purchased1.lq.willy.1 | willy_name={{willy_name}} }} #$b#{{ i18n: extra.purchased1.lq.willy.2 }}$s#$e#{{ i18n: extra.purchased1.lq.willy.3 }}",
+				"PurchasedItem_3_QualityLow_Rude_Willy": "{{ i18n: extra.purchased3.lq.willy.0 }}#$e# {{ i18n: extra.purchased3.lq.willy.1 | willy_name={{willy_name}} }}",
+				"PurchasedItem_4_Willy": "{{ i18n: extra.purchased4.willy.0 | willy_name={{willy_name}} }}#$e#{{ i18n: extra.purchased4.willy.1 }}$h",
+				"PurchasedItem_Pierre_QualityHigh_Willy": "{{ i18n: extra.purchased.pierre.hq.willy.0 }}#$b#{{ i18n: extra.purchased.pierre.hq.willy.1 }}$h"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"WillyCooking": "{{ i18n: mail.willycooking | willy_name={{willy_name}} }}",
+				"CF_Fish": "{{ i18n: mail.cf_fish.0 | willy_name={{willy_name}} }}   ^  %item object 434 1 %%[#]{{ i18n: mail.cf_fish.1 | willy_name={{willy_name}} }}",
+				"fishing2": "{{ i18n: mail.fishing2 | willy_name={{willy_name}} }}",
+				"fishing6": "{{ i18n: mail.fishing6 | willy_name={{willy_name}} }}",
+				"spring_2_1": "{{ i18n: mail.spring_2_1.0 | willy_name={{willy_name}} }} %item quest 13 true %%[#]{{ i18n: mail.spring_2_1.1 | willy_name={{willy_name}} }}",
+				"winter_2_1": "{{ i18n: mail.winter_2_1 | willy_name={{willy_name}} }}",
+				"winter_13_2": "{{ i18n: mail.winter_13_2 | willy_name={{willy_name}} }}",
+				"willyBackRoomInvitation": "{{ i18n: mail.willybackroominvite | willy_name={{willy_name}} }}",
+				"willyBugWadCutscene": "{{ i18n: mail.willybugwad | willy_name={{willy_name}} }}",
+				"willyHours": "{{ i18n: mail.willyhours | willy_name={{willy_name}} }}",
+				"WillyTropicalFish": "{{ i18n: mail.willytropicalfish | willy_name={{willy_name}} }}",
+				"passedOutIsland": "{{ i18n: mail.passedoutisland | willy_name={{willy_name}} }}",
+				"passedOutIsland_Leo": "{{ i18n: mail.passedoutisland_leo | willy_name={{willy_name}} }}",
+				"LeoCooking": "{{ i18n: mail.leocooking | willy_name={{willy_name}} }}"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Willy": {
+					"11": "{{willy_name}}"
+				}
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Fields": {
+				"13": {
+					"2": "{{ i18n: quests.13.0 | willy_name={{willy_name}} }}"
+				},
+				"109": {
+					"2": "{{ i18n: quests.109.0 | willy_name={{willy_name}} }}",
+					"3": "{{ i18n: quests.109.1 | willy_name={{willy_name}} }}"
+				},
+				"124": {
+					"2": "{{ i18n: quests.124.0 | willy_name={{willy_name}} }}",
+					"3": "{{ i18n: quests.124.1 | willy_name={{willy_name}} }}"
+				}
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Fields": {
+				"Willy": {
+					"Requester": "{{willy_name}}"
+				},
+				"Willy2": {
+					"Requester": "{{willy_name}}"
+				}
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": {
+				"711130/t 600 1710/f Willy 1500": {
+					"57": "speak Gus \"{{ i18n: events.beach.711130.0 | willy_name={{willy_name}} }}$h\"",
+					"94": "speak Gus \"{{ i18n: events.beach.711130.1 | willy_name={{willy_name}} }}\""
+				}
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Fields": {
+				"3206194/n gusGiantOmelet": {
+					"36": "speak Gus \"{{ i18n: events.saloon.3206194.0 | willy_name={{willy_name}} }}\""
+				}
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": {
+				"191393/Hn ccFishTank/Hn ccBulletin/Hn ccPantry/Hn ccVault/Hn ccBoilerRoom/Hn ccCraftsRoom/Hl jojaFishTank/Hl jojaPantry/Hl jojaVault/Hl jojaBoilerRoom/Hl jojaCraftsRoom/Hl JojaMember/w sunny/H": {
+					"156": "textAboveHead Pierre \"{{ i18n: events.town.191393.0 | willy_name={{willy_name}} }}\""
+				}
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"Pam": "{{ i18n: festivals.winter8.pam.0 }}#$e#{{ i18n: festivals.winter8.pam.1 | willy_name={{willy_name}} }}$s",
+				"Elliott": "{{ i18n: festivals.winter8.elliott.0 }}#$e#{{ i18n: festivals.winter8.elliott.1 | willy_name={{willy_name}} }}"
+			},
+			"Fields": {
+				"DickWin": {
+					"6": "speak Lewis \"{{ i18n: festivals.winter8.dickwin.0 | willy_name={{willy_name}} }}\""
+				}
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"Willy_Objective_1_Text": "{{ i18n: strings.specialorders.willy_obj1_text | willy_name={{willy_name}} }}"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Event.cs.1871": "{{ i18n: strings.cs.1871 | willy_name={{willy_name}} }}",
+				"FishingQuest.cs.13248": "{{ i18n: strings.cs.13248 | willy_name={{willy_name}} }}",
+				"FishingQuest.cs.13251": "{{ i18n: strings.cs.13251 | willy_name={{willy_name}} }}"
+			},
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		}
+    ]
+}

@@ -1,0 +1,1110 @@
+{
+	"Format": "1.26.0",
+
+			"ConfigSchema": 
+		{
+			"Abigail_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Alex_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Birdie_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Bouncer_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Caroline_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Clint_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Demetrius_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Elliott_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Emily_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Evelyn_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"George_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Gil_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Grandpa_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Governor_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Gunther_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Gus_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Haley_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},  
+			"Harvey_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Jas_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Jodi_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Kent_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Leah_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Lewis_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Linus_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Marlon_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Maru_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Marnie_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"MrQi_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Morris_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Pam_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"ParrotBoy_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Penny_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Pierre_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Robin_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"SafariGuy_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Sandy_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Sam_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Sebastian_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Shane_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Vincent_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Willy_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+			"Wizard_HD_portrait":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				}, 
+		},
+
+	"Changes": 
+	[
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Abigail, Mods/AnimeHDPortraits/Abigail_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Abigail_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Abigail_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Abigail_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Abigail, Mods/HDPortraits/Abigail_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Abigail_HD_portrait": "true"},
+		},
+		
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Alex, Mods/AnimeHDPortraits/Alex_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Alex_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Alex, Mods/HDPortraits/Alex_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Alex_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Alex, Mods/HDPortraits/Alex_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Alex_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Birdie",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Birdie_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Birdie",
+		"FromFile": "assets/Size256.json",
+		"When": {"Birdie_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Birdie",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Birdie_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Bouncer",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Bouncer_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Bouncer",
+		"FromFile": "assets/Size256.json",
+		"When": {"Bouncer_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Bouncer",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Bouncer_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Caroline, Mods/AnimeHDPortraits/Caroline_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Caroline_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Caroline, Mods/HDPortraits/Caroline_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Caroline_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Caroline, Mods/HDPortraits/Caroline_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Caroline_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Clint, Mods/AnimeHDPortraits/Clint_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Clint_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Clint_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Clint_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Clint, Mods/HDPortraits/Clint_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Clint_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Demetrius",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Demetrius_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Demetrius",
+		"FromFile": "assets/Size256.json",
+		"When": {"Demetrius_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Demetrius",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Demetrius_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Elliott, Mods/AnimeHDPortraits/Elliott_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Elliott_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Elliott, Mods/HDPortraits/Elliott_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Elliott_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Elliott, Mods/HDPortraits/Elliott_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Elliott_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Emily, Mods/AnimeHDPortraits/Emily_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Emily_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Emily, Mods/HDPortraits/Emily_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Emily_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Emily, Mods/HDPortraits/Emily_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Emily_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Evelyn",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Evelyn_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Evelyn",
+		"FromFile": "assets/Size256.json",
+		"When": {"Evelyn_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Evelyn",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Evelyn_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/George",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"George_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/George",
+		"FromFile": "assets/Size256.json",
+		"When": {"George_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/George",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"George_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Gil",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Gil_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Gil",
+		"FromFile": "assets/Size256.json",
+		"When": {"Gil_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Gil",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Gil_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Grandpa",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Grandpa_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Grandpa",
+		"FromFile": "assets/Size256.json",
+		"When": {"Grandpa_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Grandpa",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Grandpa_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Governor",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Governor_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Governor",
+		"FromFile": "assets/Size256.json",
+		"When": {"Governor_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Governor",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Governor_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Gunther",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Gunther_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Gunther",
+		"FromFile": "assets/Size256.json",
+		"When": {"Gunther_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Gunther",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Gunther_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Gus",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Gus_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Gus",
+		"FromFile": "assets/Size256.json",
+		"When": {"Gus_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Gus",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Gus_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Haley",
+		"FromFile": "assets/Haley.png",
+		"When": {"Haley_HD_portrait": "true"},
+        },
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Haley_Beach",
+		"FromFile": "assets/Haley_Beach.png",
+		"When": {"Haley_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Haley, Mods/HDPortraits/Haley_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Haley_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Haley, Mods/HDPortraits/Haley_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Haley_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Harvey, Mods/AnimeHDPortraits/Harvey_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Harvey_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Harvey, Mods/HDPortraits/Harvey_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Harvey_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Harvey, Mods/HDPortraits/Harvey_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Harvey_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Jas",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Jas_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Jas",
+		"FromFile": "assets/Size256.json",
+		"When": {"Jas_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Jas",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Jas_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Jodi, Mods/AnimeHDPortraits/Jodi_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Jodi_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Jodi_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Jodi_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Jodi, Mods/HDPortraits/Jodi_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Jodi_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Kent",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Kent_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Kent",
+		"FromFile": "assets/Size256.json",
+		"When": {"Kent_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Kent",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Kent_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Leah, Mods/AnimeHDPortraits/Leah_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Leah_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Leah, Mods/HDPortraits/Leah_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Leah_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Leah, Mods/HDPortraits/Leah_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Leah_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Lewis",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Lewis_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Lewis",
+		"FromFile": "assets/Size256.json",
+		"When": {"Lewis_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Lewis",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Lewis_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Linus",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Linus_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Linus",
+		"FromFile": "assets/Size256.json",
+		"When": {"Linus_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Linus",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Linus_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Marlon",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Marlon_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Marlon",
+		"FromFile": "assets/Size256.json",
+		"When": {"Marlon_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Marlon",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Marlon_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Marnie, Mods/AnimeHDPortraits/Marnie_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Marnie_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Marnie, Mods/HDPortraits/Marnie_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Marnie_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Marnie, Mods/HDPortraits/Marnie_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Marnie_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Maru, Mods/AnimeHDPortraits/Maru_Beach, Mods/AnimeHDPortraits/Maru_Hospital",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Maru_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Maru, Mods/HDPortraits/Maru_Beach, Mods/HDPortraits/Maru_Hospital",
+		"FromFile": "assets/Size256.json",
+		"When": {"Maru_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Maru, Mods/HDPortraits/Maru_Beach, Mods/HDPortraits/Maru_Hospital",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Maru_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Morris",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Morris_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Morris",
+		"FromFile": "assets/Size256.json",
+		"When": {"Morris_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Morris",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Morris_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/MrQi",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"MrQi_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/MrQi",
+		"FromFile": "assets/Size256.json",
+		"When": {"MrQi_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/MrQi",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"MrQi_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Pam, Mods/AnimeHDPortraits/Pam_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Pam_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Pam, Mods/HDPortraits/Pam_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Pam_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Pam, Mods/HDPortraits/Pam_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Pam_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/ParrotBoy",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"ParrotBoy_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/ParrotBoy",
+		"FromFile": "assets/Size256.json",
+		"When": {"ParrotBoy_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/ParrotBoy",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"ParrotBoy_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Penny, Mods/AnimeHDPortraits/Penny_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Penny_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Penny, Mods/HDPortraits/Penny_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Penny_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Penny, Mods/HDPortraits/Penny_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Penny_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Pierre, Mods/AnimeHDPortraits/Pierre_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Pierre_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Pierre, Mods/HDPortraits/Pierre_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Pierre_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Pierre, Mods/HDPortraits/Pierre_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Pierre_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Robin, Mods/AnimeHDPortraits/Robin_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Robin_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Robin, Mods/HDPortraits/Robin_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Robin_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Robin, Mods/HDPortraits/Robin_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Robin_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/SafariGuy",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"SafariGuy_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/SafariGuy",
+		"FromFile": "assets/Size256.json",
+		"When": {"SafariGuy_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/SafariGuy",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"SafariGuy_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Sam, Mods/AnimeHDPortraits/Sam_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Sam_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Sam, Mods/HDPortraits/Sam_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Sam_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Sam, Mods/HDPortraits/Sam_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Sam_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Sandy",
+		"FromFile": "assets/Sandy.png",
+		"When": {"Sandy_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Sandy",
+		"FromFile": "assets/Size256.json",
+		"When": {"Sandy_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Sandy",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Sandy_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Sebastian, Mods/AnimeHDPortraits/Sebastian_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Sebastian_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Sebastian, Mods/HDPortraits/Sebastian_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Sebastian_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Sebastian, Mods/HDPortraits/Sebastian_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Sebastian_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Shane, Mods/AnimeHDPortraits/Shane_Beach",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Shane_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Shane, Mods/HDPortraits/Shane_Beach",
+		"FromFile": "assets/Size256.json",
+		"When": {"Shane_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Shane, Mods/HDPortraits/Shane_Beach",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Shane_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Vincent",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Vincent_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Vincent",
+		"FromFile": "assets/Size256.json",
+		"When": {"Vincent_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Vincent",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Vincent_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Willy",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Willy_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Willy",
+		"FromFile": "assets/Size256.json",
+		"When": {"Willy_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Willy",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Willy_HD_portrait": "true"},
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Mods/AnimeHDPortraits/Wizard",
+		"FromFile": "assets/{{TargetWithoutPath}}.png",
+		"When": {"Wizard_HD_portrait": "true"},
+        },
+        {
+		"Action": "Load",
+		"Target": "Mods/HDPortraits/Wizard",
+		"FromFile": "assets/Size256.json",
+		"When": {"Wizard_HD_portrait": "true"},
+	    },
+ 		{
+		"Action": "EditData",
+		"Target": "Mods/HDPortraits/Wizard",
+		"Entries": {
+				"Portrait": "Mods/AnimeHDPortraits/{{TargetWithoutPath}}",
+			},
+		"When":	{"Wizard_HD_portrait": "true"},
+		},
+
+	]
+}

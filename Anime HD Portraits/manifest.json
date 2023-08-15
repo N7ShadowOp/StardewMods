@@ -1,0 +1,17 @@
+﻿{
+    "Name": "Anime HD Portraits",
+    "Author": "Beornwahl",
+    "Version": "1.3",
+    "Description": "Anime  HD Portraits",
+    "UniqueID": "Anime.HDPortraits",
+    "UpdateKeys": [ "Nexus:00000" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+		{
+			"UniqueID": "tlitookilakin.HDPortraits",
+			"IsRequired": true
+		},
+					]
+}

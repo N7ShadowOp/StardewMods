@@ -1,0 +1,151 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"Introduction": "{{ i18n: elliott.introduction.0 }}#$b#{{ i18n: elliott.introduction.1 | elliott_name={{elliott_name}} }}",
+				"Wed8": "{{ i18n: elliott.wed8.0 }}$s#$e#{{ i18n: elliott.wed8.1 }}$s#$e#{{ i18n: elliott.wed8.2 }}$s",
+				"event_boat1": "{{ i18n: elliott.event_boat1.0 }}$l^{{ i18n: elliott.event_boat1.1 }}$l"
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Entries": {
+				"Rainy_Night_3": "{{ i18n: married.elliott.rainy_night_3 }}",
+				"Indoor_Day_0": "{{ i18n: married.elliott.indoor_day_0 }}",
+				"OneKid_3": "{{ i18n: married.elliott.onekid_3 }}",
+				"TwoKids_1": "{{ i18n: married.elliott.twokids_1 }}$h",
+				"fall_26": "{{ i18n: married.elliott.fall_26 }}"
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"event_room1": "{{ i18n: shane.event_room1 | elliott_name={{elliott_name}} }}$s"
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"elliottReading": "{{ i18n: mail.elliottReading | elliott_name={{elliott_name}} }}",
+				"elliottBoat": "{{ i18n: mail.elliottBoat | elliott_name={{elliott_name}} }}",
+				"elliottLetter1": "{{ i18n: mail.elliottLetter1 | elliott_name={{elliott_name}} }}",
+				"elliottLetter2": "{{ i18n: mail.elliottLetter2 | elliott_name={{elliott_name}} }}",
+				"elliottLetter3": "{{ i18n: mail.elliottLetter3 | elliott_name={{elliott_name}} }}",
+				"elliottLetter4": "{{ i18n: mail.elliottLetter4 | elliott_name={{elliott_name}} }}",
+				"elliottLetter5": "{{ i18n: mail.elliottLetter5 | elliott_name={{elliott_name}} }}",
+				"elliottLetter6": "{{ i18n: mail.elliottLetter6 | elliott_name={{elliott_name}} }}"
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Elliott": {
+					"11": "{{elliott_name}}"
+				}
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Fields": {
+				"35": {
+					"0": "{{ i18n: weapons.35.0 | elliott_name={{elliott_name}} }}",
+					"1": "{{ i18n: weapons.35.1 | elliott_name={{elliott_name}} }}"
+				}
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/ArchaeologyHouse",
+			"Fields": {
+				"1848481/f Elliott 2000/t 1300 1900/n elliottReading": {
+					"38": "speak Elliott \"{{ i18n: events.archhouse.1848481.0 }}#$b#{{ i18n: events.archhouse.1848481.1 }}\""
+				}
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Fields": {
+				"40/f Elliott 1000/p Gus/t 1500 2200": {
+					"32": "speak Elliott \"{{ i18n: events.saloon.40.0 }}^{{ i18n: events.saloon.40.1 }}\"",
+					"47": "speak Gus \"{{ i18n: events.saloon.40.2 }}$u\""
+				}
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			"Entries": {
+				"ElliottHouse_ElliottBook_Filled": "{{ i18n: strings.locations.elliottbook | elliott_name={{elliott_name}} }}"
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"MapPage.cs.11088": "{{ i18n: strings.cs.11088 | elliott_name={{elliott_name}} }}",
+				"MapPage.cs.11168": "{{ i18n: strings.cs.11088 | elliott_name={{elliott_name}} }}",
+				"TitleMenu.cs.11726": "{{ i18n: strings.titlemenu.11726 | elliott_name={{elliott_name}} }}"
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"ElliottHouse.2": "{{ i18n: strings.maps.elliotthouse.2 | elliott_name={{elliott_name}} }}",
+				"ElliottHouse.4": "{{ i18n: strings.maps.elliotthouse.4 | elliott_name={{elliott_name}} }}",
+				"ElliottHouse.6": "{{ i18n: strings.maps.elliotthouse.4 | elliott_name={{elliott_name}} }}"
+			},
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		}
+    ]
+}

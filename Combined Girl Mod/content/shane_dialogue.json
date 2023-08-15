@@ -1,0 +1,238 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"Sun2": "{{ i18n: jas.sun2.0 | shane_name={{shane_name}} }}#$e#{{ i18n: jas.sun2.1 }}$h",
+				"Sun10": "{{ i18n: jas.sun10.0 | shane_name={{shane_name}} }}$s#$e#{{ i18n: jas.sun10.1 }}$s"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"Tue": "{{ i18n: marnie.tue | shane_name={{shane_name}} }}",
+				"Fri4": "#$1 marnieLike#{{ i18n: marnie.fri4.0 }}$k$h#$e#{{ i18n: marnie.fri4.1 | shane_name={{shane_name}} }}"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"Entries": {
+				"Indoor_Day_4": "{{ i18n: married.shane.indoor_day_4 }}$6",
+				"Indoor_Night_3": "{{ i18n: married.shane.indoor_night_3.0 }}#$e#{{ i18n: married.shane.indoor_night_3.1 }}",
+				"OneKid_3": "{{ i18n: married.shane.onekid_3.0 | shane_name={{shane_name}} }}$6#$e#{{ i18n: married.shane.onekid_3.1 }}",
+				"Good_2": "{{ i18n: married.shane.good_2 | shane_name={{shane_name}} }}",
+				"Good_6": "{{ i18n: married.shane.good_6 }}$h"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"dumped_Guys": "%{{ i18n: shane.dumped_guys | shane_name={{shane_name}} }}",
+				"JojaMart": "%{{ i18n: shane.jojamart | shane_name={{shane_name}} }}"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"Shane": "{{ i18n: mail.shane.0 | shane_name={{shane_name}} }} %item object 215 1 206 1 %%[#]{{ i18n: mail.shane.1 | shane_name={{shane_name}} }}",
+				"ShaneCooking": "{{ i18n: mail.shanecooking.0 | shane_name={{shane_name}} }}%item cookingRecipe %%[#]{{ i18n: mail.shanecooking.1 | shane_name={{shane_name}} }}"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Shane": {
+					"11": "{{shane_name}}"
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Shane": {
+					"Reactions": [
+						{
+							"ID": "reaction_5",
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/message \"{{ i18n: mreact.shane.r5.script | shane_name={{shane_name}} }}\""
+								}
+							}
+						},
+
+						{
+							"ID": "reaction_7",
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/emote Shane 28/message \"{{ i18n: mreact.shane.r7.script | shane_name={{shane_name}} }}\""
+								}
+							}
+						}
+					]
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/AnimalShop",
+			"Fields": {
+				"3910674/f Shane 1000": {
+					"7": "speak Marnie \"{{ i18n: events.animalshop.3910674.0 | shane_name={{shane_name}} }}\"",
+					"21": "speak Marnie \"{{ i18n: events.animalshop.3910674.1 }}$s\"",
+					"46": "speak Marnie \"{{ i18n: events.animalshop.3910674.2 | shane_name={{shane_name}} }}$s\""
+				},
+				"3910974/f Shane 1700/e 3910975/p Shane": {
+					"11": "speak Marnie \"{{ i18n: events.animalshop.3910974.0 | shane_name={{shane_name}} }}\"",
+					"39": "textAboveHead Marnie \"{{ i18n: events.animalshop.3910974.1 }}\""
+				},
+				"3900074/f Shane 2000/e 2118991/p Shane": {
+					"12": "speak Jas \"{{ i18n: events.animalshop.3900074.0 | shane_name={{shane_name}} }}\"",
+					"76": "speak Shane \"{{ i18n: events.animalshop.3900074.1.0 }}$9#$b#{{ i18n: events.animalshop.3900074.1.1 }} $9#$b#{{ i18n: events.animalshop.3900074.1.2 }}$9#$b#{{ i18n: events.animalshop.3900074.1.3 }}$9#$b#...$9#$b#{{ i18n: events.animalshop.3900074.1.4 }}$8\""
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Fields": {
+				"3910975/f Shane 1500/e 3910674/t 900 2000/w rainy": {
+					"21": "question shaneCliffs \"#{{ i18n: events.forest.3910975.0.0 }}#{{ i18n: events.forest.3910975.0.1 }}#{{ i18n: events.forest.3910975.0.2 }}#{{ i18n: events.forest.3910975.0.3 }}\"",
+					"46": "speak Harvey \"{{ i18n: events.forest.3910975.1.0 }}#$b#{{ i18n: events.forest.3910975.1.1 }}\"",
+					"49": "speak Harvey \"{{ i18n: events.forest.3910975.2.0 }}$s#$b#{{ i18n: events.forest.3910975.2.1 }}\""
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/ManorHouse",
+			"Fields": {
+				"2123243/e 2111194": {
+					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}#$b#{{ i18n: events.manorhouse.2123243.1 }}\"",
+					"25": "speak Emily \"{{ i18n: events.manorhouse.2123243.2 }}#$b#{{ i18n: events.manorhouse.2123243.3 }}#$b#{{ i18n: events.manorhouse.2123243.4 | shane_name={{shane_name}} }}$h\""
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Fields": {
+				"3917590/n saloonSportsRoom/O Alex": {
+					"37": "speak Alex \"{{ i18n: events.saloon.3917590.0 }}\"",
+					"42": "speak George \"{{ i18n: events.saloon.3917590.1 | alex_petname={{alex_petname}} }}\"",
+					"51": "speak Gus \"{{ i18n: events.saloon.3917590.2 | shane_name={{shane_name}} }}\"",
+					"64": "message \"{{ i18n: events.saloon.3917590.3 }}\"",
+					"68": "end dialogue Alex \"{{ i18n: events.saloon.3917590.4 }}\""
+				},
+				"wewereworried": {
+					"5": "speak Shane \"{{ i18n: events.saloon.wewereworried.0.0 }}$a#$b#{{ i18n: events.saloon.wewereworried.0.1 }}#$b#{{ i18n: events.saloon.wewereworried.0.2 }}\"",
+					"17": "end dialogue Shane \"{{ i18n: events.saloon.wewereworried.1 }}$h\""
+				},
+				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": {
+					"85": "speak Emily \"{{ i18n: events.saloon.97.0 | shane_name={{shane_name}} }}$h\"",
+					"96": "speak Emily \"{{ i18n: events.saloon.97.1 | shane_name={{shane_name}} }}$h#$b#{{ i18n: events.saloon.97.2 }}\""
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": {
+				"3917584/f Shane 3500/O Shane/d Fri/t 800 1700": {
+					"31": "speak Marnie \"{{ i18n: events.town.3917584.0 }}$s\""
+				},
+				"3917586/e 3917585/O Shane/A shaneSaloon2": {
+					"18": "speak Marnie \"{{ i18n: events.town.3917586.0 }} $s\"",
+					"101": "speak Marnie \"{{ i18n: events.town.3917586.1 | shane_name={{shane_name}} }}$s\"",
+					"156": "end dialogue Shane \"{{ i18n: events.town.3917586.2 }}$h\""
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"shane_work": "%{{ i18n: strings.animation.shane_work | shane_name={{shane_name}} }}"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Utility.cs.5864_3": "{{ i18n: strings.cs.5864_3 | shane_name={{shane_name}} }}"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"AnimalShop.8": "{{ i18n: strings.maps.animalshop.8 }}"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		}
+    ]
+}

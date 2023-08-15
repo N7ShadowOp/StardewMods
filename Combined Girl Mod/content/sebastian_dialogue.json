@@ -1,0 +1,300 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"winter_Sat": "{{ i18n: alex.winter_sat.0 }}#$e#{{ i18n: alex.winter_sat.1 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: alex.winter_sat.2 }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"Entries": {
+				"Indoor_Night_Sebastian": "#$c .5#{{ i18n: married.indoor_night_sebastian.0 }}$h#$e#{{ i18n: married.indoor_night_sebastian.1 }}$h"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
+			"Entries": {
+				"Bad_9": "{{ i18n: married.abby.bad_9 | sebastian_name={{sebastian_name}} }}$s"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMaru",
+			"Entries": {
+				"spring_22": "{{ i18n: married.maru.spring_22 }}",
+				"summer_20": "{{ i18n: married.maru.summer_20 }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			"Entries": {
+				"Rainy_Day_1": "{{ i18n: married.sam.rainy_day_1.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: married.sam.rainy_day_1.1 }}",
+				"spring_12": "{{ i18n: married.sam.spring_12 | sebastian_name={{sebastian_name}} }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			"Entries": {
+				"Outdoor_3": "{{ i18n: married.sebastian.outdoor_3.0 }}#$e#{{ i18n: married.sebastian.outdoor_3.1 }}$h",
+				"OneKid_0": "{{ i18n: married.sebastian.onekid_0 }}",
+				"Good_3": "{{ i18n: married.sebastian.good_3 }}$l",
+				"spring_23": "{{ i18n: married.sebastian.spring_23.0 }}#$e#{{ i18n: married.sebastian.spring_23.1 }}$s"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"summer_Tue": "{{ i18n: maru.summer_tue.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: maru.summer_tue.1 }}",
+				"summer_Tue4": "{{ i18n: maru.summer_tue4.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: maru.summer_tue4.1 }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"Fri": "{{ i18n: robin.fri.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: robin.fri.1 }}",
+				"Fri_inlaw_Sebastian": "{{ i18n: robin.fri_inlaw_sebastian | sebastian_nick={{sebastian_nick}} }}",
+				"Fri4": "#$1 RobinSeb#{{ i18n: robin.fri4.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: robin.fri4.1 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: robin.fri4.2 }}",
+				"Fri4_inlaw_Sebastian": "{{ i18n: robin.fri4_inlaw_sebastian | sebastian_name={{sebastian_name}} }}",
+				"winter_Fri_inlaw_Sebastian": "{{ i18n: robin.winter_fri_inlaw_sebastian | sebastian_nick={{sebastian_nick}} }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"Resort_Towel_2": "{{ i18n: sam.resort_towel_2.0 }}#$e#{{ i18n: sam.resort_towel_2.1 | sebastian_name={{sebastian_name}} }}$s#$e#{{ i18n: sam.resort_towel_2.2 }}$h",
+				"Wed6": "{{ i18n: sam.wed6.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: sam.wed6.1 }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"winter_Wed": "%{{ i18n: sebastian.winter_wed | sebastian_name={{sebastian_name}} }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Sebastian": {
+					"11": "{{sebastian_name}}"
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Fields": {
+				"41": {
+					"0": "{{ i18n: weapons.41.0 | sebastian_nick={{sebastian_nick}} }}",
+					"1": "{{ i18n: weapons.41.1 | sebastian_name={{sebastian_name}} }}"
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Sebastian": {
+					"Reactions": [
+						{
+							"ID": "reaction_3",
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/emote Sebastian 32/message \"{{ i18n: mreact.sebastian.r3.script | sebastian_name={{sebastian_name}} }}\""
+								}
+							}
+						}
+					]
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": {
+				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": {
+					"25": "speak Vincent \"{{ i18n: events.beach.733330.0 | sam_name={{sam_name}} }}\"",
+					"64": "speak Sam \"{{ i18n: events.beach.733330.1 | sebastian_name={{sebastian_name}} }}\""
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Fields": {
+				"384882/f Sebastian 2500/t 2000 2400": {
+					"52": "speak Sebastian \"{{ i18n: events.mountain.384882.0 }}$l^@...?$s#$b#{{ i18n: events.mountain.384882.1 }}$l#$b#{{ i18n: events.mountain.384882.2 }}$l\""
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Fields": {
+				"44/f Sam 500/p Sam": {
+					"19": "speak Sam \"{{ i18n: events.samhouse.44.0 | sebastian_name={{sebastian_name}} }}\"",
+					"32": "speak Sam \"{{ i18n: events.samhouse.44.1 | sebastian_name={{sebastian_name}} }}\"",
+					"41": "speak Sam \"{{ i18n: events.samhouse.44.2 | sebastian_name={{sebastian_name}} }}$h\""
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SebastianRoom",
+			"Fields":  {
+				"enterRobin": {
+					"16": "speak Robin \"{{ i18n: events.sebroom.enterRobin.1 | sebastian_nick={{sebastian_nick}} }}\"",
+					"31": "question fork1 \"#{{ i18n: events.sebroom.enterRobin.2.0 }}#{{ i18n: events.sebroom.enterRobin.2.1 }}\""
+				},
+				"Necromancer": {
+					"22": "question fork0 \"{{ i18n: events.sebroom.Necromancer.0 }}#{{ i18n: events.sebroom.Necromancer.1 | sam_name={{sam_name}} }}#{{ i18n: events.sebroom.Necromancer.2 | sebastian_name={{sebastian_name}} }}\""
+				},
+				"finalBossWizard": {
+					"8": "message \"{{ i18n: events.sebroom.finalBossWizard.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"castBeam": {
+					"8": "message \"{{ i18n: events.sebroom.castBeam.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"chargeAhead": {
+					"8": "message \"{{ i18n: events.sebroom.chargeAhead.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"2794460/f Sebastian 500/p Sebastian": {
+					"18": "question fork1 \"#{{ i18n: events.sebroom.2794460.0 }}#{{ i18n: events.sebroom.2794460.1 }}\""
+				},
+				"sebastianRoom": {
+					"10": "question fork1 \"#{{ i18n: events.sebroom.sebastianroom.0 }}#{{ i18n: events.sebroom.sebastianroom.1 }}\""
+				},
+				"finalBossWarrior": {
+					"7": "message \"{{ i18n: events.sebroom.finalbosswarrior.0 | sebastian_name={{sebastian_name}} }}\""	
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": {
+				"15389722/j 57": {
+					"52": "quickQuestion #{{ i18n: events.town.15389722.0 }}#{{ i18n: events.town.15389722.1 }}(break)faceDirection Lewis 3\\speak Lewis \"{{ i18n: events.town.15389722.2 }}\"\\emote Robin 20\\speak Robin \"{{ i18n: events.town.15389722.3 }}$4\"\\pause 400\\showFrame Lewis 27\\shake Lewis 200\\pause 400\\textAboveHead Lewis \"{{ i18n: events.town.15389722.4 }}\"\\animate Robin false true 150 32 33\\pause 1200\\showFrame Lewis 0\\faceDirection Lewis 3\\speak Lewis \"{{ i18n: events.town.15389722.5 }}#$b#{{ i18n: events.town.15389722.6 }}$h#$b#{{ i18n: events.town.15389722.7 }}\"(break)faceDirection Lewis 3\\emote Lewis 28\\speak Lewis \"{{ i18n: events.town.15389722.8 }}$s\"\\pause 400\\speak Robin \"{{ i18n: events.town.15389722.9 }}$5#$b#{{ i18n: events.town.15389722.10 | sebastian_name={{sebastian_name}} }}\"\\playMusic none\\pause 500\\speak Lewis \"{{ i18n: events.town.15389722.11 }}$u#$b#{{ i18n: events.town.15389722.12 }}$u\"\\faceDirection Lewis 1(break)"
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"Sam_spouse": "{{ i18n: festivals.fall16.sam_spouse | sebastian_name={{sebastian_name}} }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"Sam": "{{ i18n: festivals.summer28.sam.0 }}#$e#{{ i18n: festivals.summer28.sam.0 | sebastian_name={{sebastian_name}} }}$h"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"MapPage.cs.11095": "{{ i18n: strings.cs.11095 | sebastian_name={{sebastian_name}} }}",
+				"ItemDeliveryQuest.cs.13324": "{{ i18n: strings.cs.13324 | sebastian_name={{sebastian_name}} }}",
+				"ItemDeliveryQuest.cs.13327": "{{ i18n: strings.cs.13327 | sebastian_name={{sebastian_name}} }}",
+				"ItemDeliveryQuest.cs.13378": "{{ i18n: strings.cs.13378 | sebastian_name={{sebastian_name}} }}",
+				"ItemDeliveryQuest.cs.13381": "{{ i18n: strings.cs.13381 | sebastian_name={{sebastian_name}} }}"
+			},
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		}
+    ]
+}

@@ -1,0 +1,358 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"summer_Sat": "{{ i18n: emily.summer_sat | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"Introduction": "{{ i18n: harvey.introduction.0 | harvey_name={{harvey_name}} }}#$e#{{ i18n: harvey.introduction.1 }}#$e#{{ i18n: harvey.introduction.2 }}$h"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+			"Entries": {
+				"Outdoor_2": "{{ i18n: married.harvey.outdoor_2 }}$l",
+				"OneKid_3": "{{ i18n: married.harvey.onekid_3 }}$h",
+				"TwoKids_3": "{{ i18n: married.harvey.twokids_3.0 }}$l#$e#{{ i18n: married.harvey.twokids_3.1 }}$l",
+				"summer_1": "{{ i18n: married.harvey.summer_1.0 }}$8#$e#{{ i18n: married.harvey.summer_1.1 }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialoguePenny",
+			"Entries": {
+				"Rainy_Day_1": "{{ i18n: married.penny.rainy_day_1.0 | harvey_name={{harvey_name}} }}#$e3#{{ i18n: married.penny.rainy_day_1.1 }}$h"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"Wed": "{{ i18n: maru.wed.0 | harvey_name={{harvey_name}} }}#$b#{{ i18n: maru.wed.1 }}$h#$e#{{ i18n: maru.wed.2 }}",
+				"Wed8": "{{ i18n: maru.wed8.0 | harvey_name={{harvey_name}} }}#$e#{{ i18n: maru.wed8.1 }}",
+				"Event_Hospital_1": "{{ i18n: maru.event_hospital_1 }}%fork$s",
+				"Event_Hospital_3": "{{ i18n: maru.event_hospital_3 }}%fork$u"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"harveyBalloon": "{{ i18n: mail.harveyBalloon | harvey_name={{harvey_name}} }}",
+				"passedOut3_Billed": "{{ i18n: mail.passedout3_billed | harvey_name={{harvey_name}} }}",
+				"passedOut3_NotBilled": "{{ i18n: mail.passedout3_notbilled | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Harvey": {
+					"11": "{{harvey_name}}"
+				}
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Fields": {
+				"37": {
+					"0": "{{ i18n: weapons.37.0 | harvey_name={{harvey_name}} }}",
+					"1": "{{ i18n: weapons.37.1 | harvey_name={{harvey_name}} }}"
+				}
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Harvey": {
+					"ID": "Harvey",
+					"Reactions": [
+						{
+							"ID": "reaction_3",
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/shake Harvey 3000/pause 500/message \"{{ i18n: mreact.harvey.r3.script | harvey_name={{harvey_name}} }}\""
+								}
+							}
+						},
+
+						{
+							"ID": "reaction_6",
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/shake Harvey 3000/pause 500/message \"{{ i18n: mreact.harvey.r6.script | harvey_name={{harvey_name}} }}\""
+								}
+							}
+						}
+					]
+				}
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Fields": {
+				"2118991/e 3910975/t 600 800": {
+					"16": "speak Shane \"{{ i18n: events.farm.2118991.0 | harvey_name={{harvey_name}} }}$s\""
+				}
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Fields": {
+				"3917626/f Harvey 3500/O Harvey/t 2000 2400/p Harvey/L": {
+					"126": "quickQuestion #{{ i18n: events.farmhouse.3917627.0 }}#{{ i18n: events.farmhouse.3917627.1 }}#{{ i18n: events.farmhouse.3917627.2 }}#{{ i18n: events.farmhouse.3917627.3 }}#{{ i18n: events.farmhouse.3917627.4 }}#{{ i18n: events.farmhouse.3917627.5 }}(break)speak Harvey \"{{ i18n: events.farmhouse.3917627.6 }}$h#$b#{{ i18n: events.farmhouse.3917627.7 }}$l\"(break)speak Harvey \"{{ i18n: events.farmhouse.3917627.8 }}#$b#{{ i18n: events.farmhouse.3917627.9 }}$l\"(break)speak Harvey \"{{ i18n: events.farmhouse.3917627.10 }}$s#$b#{{ i18n: events.farmhouse.3917627.11 }}$s\"(break)emote Harvey 28\\speak Harvey \"{{ i18n: events.farmhouse.3917627.12 }}$s#$b#{{ i18n: events.farmhouse.3917627.13 }}$s\"(break)jump Harvey\\pause 500\\speak Harvey \"{{ i18n: events.farmhouse.3917627.14 }}$8#$b#{{ i18n: events.farmhouse.3917627.15 }}$8\"(break)jump Harvey\\pause 400\\speak Harvey \"{{ i18n: events.farmhouse.3917627.16 }}$8#$b#{{ i18n: events.farmhouse.3917627.17 }}$8\""
+				}
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"Fields": {
+				"7/f Maru 1000/p Maru": {
+					"28": "speak Maru \"{{ i18n: events.hospital.7.0 | harvey_name={{harvey_name}} }}$s\"",
+					"35": "speak Maru \"$q 38 null#{{ i18n: events.hospital.7.1.0 }}#$r 38 -50 Event_Hospital_1#{{ i18n: events.hospital.7.1.1 }}#$r 39 -20 Event_Hospital_2#{{ i18n: events.hospital.7.1.2 | harvey_name={{harvey_name}} }}#$r 38 50 Event_Hospital_3#{{ i18n: events.hospital.7.1.3 | harvey_name={{harvey_name}} }}\""
+				},
+				"toldTruth": {
+					"5": "speak Maru \"{{ i18n: events.hospital.toldtruth.0 | harvey_name={{harvey_name}} }}\""
+				},
+				"571102/f Harvey 2000": {
+					"11": "speak Harvey \"{{ i18n: events.hospital.571102.2 | harvey_callsign={{harvey_callsign}} }}$9\"",
+					"16": "message \"{{ i18n: events.hospital.571102.3 | harvey_callsign={{harvey_callsign}} }}\"",
+					"20": "speak Harvey \"{{ i18n: events.hospital.571102.4 }}$10#$b#{{ i18n: events.hospital.571102.5 | harvey_callsign={{harvey_callsign}} }}$10\"",
+					"32": "question fork1 \"#{{ i18n: events.hospital.571102.0 | harvey_name={{harvey_name}} }}#{{ i18n: events.hospital.571102.1 }}\""
+				}
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/JoshHouse",
+			"Fields": {
+				"56/f Harvey 500/p George": {
+					"26": "speak Harvey \"$q 84 null#{{ i18n: events.joshhouse.56.0 }}#$r 84 40 event_george1#{{ i18n: events.joshhouse.56.1 | harvey_name={{harvey_name}} }}#$r 85 -40 event_george2#{{ i18n: events.joshhouse.56.2 }}\""	
+				}
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Maru_spouse": "{{ i18n: festivals.summer11.maru_spouse | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"harvey_radio": "%{{ i18n: strings.animation.harvey_radio | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Event.cs.1068": "{{ i18n: strings.cs.1068 | harvey_name={{harvey_name}} }}",
+				"Event.cs.1070": "{{ i18n: strings.cs.1070 | harvey_name={{harvey_name}} }}",
+				"MapPage.cs.11076": "{{ i18n: strings.cs.11076 | harvey_name={{harvey_name}} }}",
+				"ItemDeliveryQuest.cs.13446": "{{ i18n: strings.cs.13446 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"HarveyRoom.3": "{{ i18n: strings.maps.harveyroom.3 | harvey_name={{harvey_name}} }}",
+				"HarveyRoom.4": "{{ i18n: strings.maps.harveyroom.3 | harvey_name={{harvey_name}} }}",
+				"Hospital.3": "{{ i18n: strings.maps.hospital.3 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+			"Entries": {
+				"fall_25.002": "{{ i18n: strings.schedules.caroline.fall_25.002 | harvey_name={{harvey_name}} }}$u"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Demetrius",
+			"Entries": {
+				"summer_25.001": "{{ i18n: strings.schedules.demetrius.summer_25.001 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Evelyn",
+			"Entries": {
+				"23.000": "{{ i18n: strings.schedules.evelyn.23.000 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jas",
+			"Entries": {
+				"winter_18.001": "{{ i18n: strings.schedules.jas.winter_18.001 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jodi",
+			"Entries": {
+				"spring_11.002": "{{ i18n: strings.schedules.jodi.spring_11.002 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Leah",
+			"Entries": {
+				"spring_16.001": "{{ i18n: strings.schedules.leah.spring_16.001 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Lewis",
+			"Entries": {
+				"fall_9.000": "{{ i18n: strings.schedules.lewis.fall_9.000 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Marnie",
+			"Entries": {
+				"fall_18.000": "{{ i18n: strings.schedules.marnie.fall_18.000 | harvey_name={{harvey_name}} }}",
+				"winter_18.002": "{{ i18n: strings.schedules.marnie.winter_18.002 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sam",
+			"Entries": {
+				"fall_11.000": "{{ i18n: strings.schedules.sam.fall_11.000 }}$7"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sebastian",
+			"Entries": {
+				"summer_4.000": "{{ i18n: strings.schedules.sebastian.summer_4.000 | harvey_name={{harvey_name}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		}
+    ]
+}

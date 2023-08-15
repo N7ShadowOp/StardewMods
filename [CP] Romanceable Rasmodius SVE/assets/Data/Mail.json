@@ -1,0 +1,28 @@
+{
+	"Changes": [
+		{
+        "Action": "EditData",
+		"Target": "Data/mail",
+        "Entries": {
+            "Wizard_wizardNap": "Greetings @,^^I must apologize for the state in which you found me the other day. On occasion I find my sleep plagued with dark dreams and I, childishly, resort to avoiding my bed. It shames me to know you witnessed such behavior from me. Nevertheless, I would like to thank you for choosing to stay with me. With you nearby I slept soundly as I have not for several weeks.^If I can ever repay you, you have but to ask.^^ Sincerely,^ Magnus",
+            "Wizard_teachMagic": "Greetings @,^^Many untold wonders are sheltered amongst the trees. Today, in particular, a strange energy stirs in the forest.^If you would like to learn heretofore unknown secrets, meet me in the hidden woods north of my tower.^^ Sincerely,^ Magnus",
+            },
+		},
+		{ //10 Heart Event Mail Invite - Standard
+        "Action": "EditData",
+		"Target": "Data/Events/Farm",
+        "When": {"Event":"standard"},
+        "Entries": {
+           	"282815627/f Wizard 2500/x Wizard_teachMagic": "null"
+        	}
+        },
+        { //9 Heart Event Mail Invite - Integrated
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "When": {"Event":"integrated"},
+        "Entries": {
+            "282815627/f Wizard 2250/x Wizard_teachMagic": "null"
+            }
+        },
+	]
+}

@@ -1,0 +1,197 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+				"Mon8": "#$1 Caroline23#{{ i18n: caroline.mon8.0 | wizard_title={{wizard_title}} }}#$e#{{ i18n: caroline.mon8.1 }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Krobus",
+			"Entries": {
+				"reject_868": "{{ i18n: krobus.reject_868.0 }}#$b#{{ i18n: krobus.reject_868.1 | wizard_title={{wizard_title}} }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueKrobus",
+			"Entries": {
+				"Rainy_Day_3": "{{ i18n: married.krobus.rainy_day_3 | wizard_title={{wizard_title}} }}$s"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"fall_26": "{{ i18n: sam.fall_26 }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"Wizard": "{{ i18n: mail.wizard | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"wizardJunimoNote": "{{ i18n: mail.wizardjunimonote | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"winter_12_1": "{{ i18n: mail.winter_12_1 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"winter_5_2": "{{ i18n: mail.winter_5_2 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"KrobusCrafting": "{{ i18n: mail.krobuscrafting | wizard_title={{wizard_title}} }}",
+				"WizardReward": "{{ i18n: mail.wizardreward | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"WizardReward2": "{{ i18n: mail.wizardreward2 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+				"Wizard": {
+					"11": "{{ i18n: npcdisp.wizard | wizard_title={{wizard_title}} }}"
+				}
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Fields": {
+				"1": {
+					"1": "{{ i18n: quests.1.0 | wizard_title={{wizard_title}} }}",
+					"2": "{{ i18n: quests.1.1 | wizard_title={{wizard_title}} }}",
+					"3": "{{ i18n: quests.1.2 | wizard_title={{wizard_title}} }}"
+				},
+				"28": {
+					"2": "{{ i18n: quests.28.0 | wizard_title={{wizard_title}} }}"
+				},
+				"111": {
+					"2": "{{ i18n: quests.111.0 | wizard_title={{wizard_title}} }}",
+					"3": "{{ i18n: quests.111.1 | wizard_title={{wizard_title}} }}"
+				},
+				"123": {
+					"2": "{{ i18n: quests.123.0 | wizard_title={{wizard_title}} }}",
+					"3": "{{ i18n: quests.123.1 | wizard_title={{wizard_title}} }}"
+				}
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Fields": {
+				"Wizard": {
+					"Requester": "{{wizard_title}}"
+				},
+				"Wizard2": {
+					"Requester": "{{wizard_title}}"
+				}
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Railroad",
+			"Fields": {
+				"529952/C": {
+					"28": "speak Wizard \"{{ i18n: events.railroad.529952.0 }}\""
+				}
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+			"Fields": {
+				"112/n seenJunimoNote": {
+					"18": "speak Wizard \"{{ i18n: events.wizhouse.112.0 | wizard_name={{wizard_name}} }}#$b#{{ i18n: events.wizhouse.112.1 }}#$b#{{ i18n: events.wizhouse.112.2 }}#$b#{{ i18n: events.wizhouse.112.3 }}\""
+				}
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"Lewis": "{{ i18n: festivals.fall27.lewis.0 }}#$e#{{ i18n: festivals.fall27.lewis.1 }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"Entries": {
+				"MagicInkDescription": "{{ i18n: strings.objects.magicink | wizard_title={{wizard_title}} }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"Wizard_Text": "{{ i18n: strings.specialorders.wizard_text | wizard_name={{wizard_name}} }}",
+				"Wizard_Objective_0_Text": "{{ i18n: strings.specialorders.wizard_obj0_text | wizard_title={{wizard_title}} }}",
+				"Wizard2_Text": "{{ i18n: strings.specialorders.wizard2_text | wizard_name={{wizard_name}} }}",
+				"Wizard2_Objective_1_Text": "{{ i18n: strings.specialorders.wizard2_obj1_text | wizard_title={{wizard_title}} }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"MapPage.cs.11067": "{{ i18n: strings.cs.11067 | wizard_title={{wizard_title}} }}",
+				"ItemDeliveryQuest.cs.13546": "{{ i18n: strings.cs.13546 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"ItemDeliveryQuest.cs.13548": "{{ i18n: strings.cs.13548 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"ItemDeliveryQuest.cs.13551": "{{ i18n: strings.cs.13551 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"ItemDeliveryQuest.cs.13553": "{{ i18n: strings.cs.13553 | wizard_title={{wizard_title}} }}",
+				"SlayMonsterQuest.cs.13752": "{{ i18n: strings.cs.13752 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}"
+			},
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		}
+    ]
+}

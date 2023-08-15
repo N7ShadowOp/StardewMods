@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Willy",
+			"FromFile": "assets/Portraits/Willy/{{Willy Portraits}}.png",
+			"When": {
+				"Willy Portraits |contains=Disabled": false
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "assets/Characters/Willy/{{Willy Sprites}}.png",
+			"When": {
+				"Willy Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Willy": {
+					"MarkerCropOffset": 2
+				}
+			},
+			"When": {
+				"Willy Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
+		}
+    ]
+}

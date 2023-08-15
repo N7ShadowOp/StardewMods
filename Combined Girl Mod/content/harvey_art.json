@@ -1,0 +1,53 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey Portraits}}.png",
+			"When": {
+				"Harvey Portraits |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Beach",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey Portraits}}_Beach.png",
+			"When": {
+				"Harvey Portraits |contains=Disabled": false
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Harvey",
+			"FromFile": "assets/Characters/Harvey/{{Harvey Sprites}}.png",
+			"When": {
+				"Harvey Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_Beach",
+			"FromFile": "assets/Characters/Harvey/{{Harvey Sprites}}_Beach.png",
+			"When": {
+				"Harvey Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Harvey": {
+					"MarkerCropOffset": 5
+				}
+			},
+			"When": {
+				"Harvey Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
+		}
+    ]
+}

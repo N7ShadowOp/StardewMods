@@ -1,29 +1,59 @@
-RSV 2.4.1
+RSV 2.5.0
 ------------------------------------------------------
-Hotfix 2: Lowered price of Odd Jobs services
-Hotfix 1: Charge player for Odd Jobs fence fixing and crop watering
+Hotfix 1:
+Fixed string error in Flor's spouse room
+Fixed error in June fall1 schedule
 
-Additions:
-Added the missing summit event for Faye and Bryle
-
-Fixes:
-Fixed bug where Faye's fashion show starts 5 days after her announcement instead of 3
-Fixed bug where Naomi's 6 heart event can't be triggered
-Fixed bug where Foxbloom can be obtained from the Statue of Endless Fortune
-Fixed bug where Zayne or Bryle can't be gifted by farmhands
-Fixed bug where Odd Jobs robbed farmhands for renovations
-Fixed bug where June and Zayne overlapped at EoR festival
-Fixed some Foxbloom riddles that were incorrect
+New content:
+Added spouse room strings (bc why not)
+Added 3 new weapons; Amethyst Lance, Guardian Greatsword, and Treble Cleaver
+Added June/Yuuma piano lesson event
+Added June reunion event for fall 1st when dating
+New Jio marriage dialogue by tiakall and moetrash
+More June marriage dialogue
+Yuuma and Louie will hang out with Trinnie and Keahi after seeing their 8H events
+Added a 10% chance for Torts to go to random locations all over the game
+Added more animations for some NPCs
 
 Changes:
-Changed Odd Jobs services to subscription model
-Updated sprites for Highland Butterwort, Lava Lily, Mountain Hokkaido, Ridgeside Monkshood, and Violet Devil's Claw (Thanks tai!)
-Updated sprites for Cutthroat Trout, Deep Ridge Angler, Mountain Redbelly Dace, Mountain Whitefish, Ridge Bluegill, Skulpin Fish, Sockeye Salmon, and Waterfall Snakehead (Thanks tai!)
-Changed aquarium sprites and a page in Daia's book in accordance to the new sprites
-Removed WearMoreRings API
-Improved Free Love compat for June
-Edited Zayne's 4 heart event
-Piano shows June schedule when away
-Clarified Charity Wishlist drop off location
-Pika's seasonal recipes sold in any season (after unlocking)
-Removed debris from Summit Farm bc it kept respawning each year
+Bryle and Zayne now visit set number of random days per week rather than by random chance
+Reduced Irene's travel schedules by 50%. Now she only leaves for a week during spring and fall season
+Tweaked Jio's portraits
+Tweaked June's portraits and sprites
+Reworked Ysabelle's portraits
+Edited Faye's 6 heart event with Bryle so that you don't have to throw Faye to the wolves to get them together
+Changed June's music to load through SMAPI rather than CP
+Tweaked dispositions for Anton, Paula, Bryle, Faye, Zayne, and Irene to include their pairs as rival hearts (index 6)
+Made Maive's 4 heart event broadcast + skippable
+Tweaked colors for cable car and summit farm backgrounds for fall season
+Edited random guest dialogue
+Restructured some portrait/sprite stuff for compat with upcoming Seasonal Outfits add-on
+
+Bug fixes:
+Fixed June not attending Spirit's Eve with SVE
+Fixed June dialogue bugs (IF YOU SEE THIS, PLEASE... fkn bane of moe's existence)
+Fixed bug in Zayne's 4 heart event
+Locked romance candidates becoming unlocked should apply for all farmers, no matter who unlocked them
+Fixed formatting issue in Odd Jobs fence repair menu
+Adjusted Kiarra's walk path during Luau to avoid bumping into Zoedoll's Leilani NPC
+Lewis fully walks off map in Sean's 4 heart event
+Removed WTDR compatibility as it's broken anyway
+Fixed a bunch of typos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
