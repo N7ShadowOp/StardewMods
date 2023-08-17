@@ -1,0 +1,11 @@
+{
+	"Name": "[STF] Winter Mermaid's Pendant",
+	"Author": "Pebble",
+	"Version": "1.0.0",
+	"Description": "Pierre will see Mermaid's Pendant in winter if the farmer has 10 hearts with a bachelor(ette).",
+	"UniqueID": "Pebble.WinterPendant",
+	"UpdateKeys": ["Nexus:12253"],
+	"ContentPackFor": {
+		"UniqueID": "Cherry.ShopTileFramework",
+	},
+}

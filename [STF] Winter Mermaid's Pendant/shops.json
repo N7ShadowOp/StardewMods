@@ -1,0 +1,28 @@
+{
+	"VanillaShops": [
+	{
+		"ShopName": "PierreShop",
+		"ShopPrice": 5000,
+		"ItemStocks": [
+		{
+			"ItemType": "Object",
+			"ItemIDs": [
+			460,
+			],
+		"When": [
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Abigail 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Maru 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Haley 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Emily 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Leah 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Penny 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Sebastian 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Shane 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Sam 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Harvey 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Elliott 2500",
+		"!z winter/FarmHouseUpgradeLevel 1 2 3/f Alex 2500",
+		],
+		}],
+	}]
+}
