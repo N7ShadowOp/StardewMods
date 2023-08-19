@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Snow",
+  "WeatherForYesterday": "Sunny",
   "LNOSCounter": {
     "RSV Summit Farm Initial Debris": 1,
     "Summit Farm large objects": 1
@@ -4046,31 +4046,9 @@
     {
       "MapName": "Custom_Ridgeside_RidgeForest",
       "Name": null,
-      "Tile": "105, 108",
+      "Tile": "148, 27",
       "Type": "Forage",
-      "ID": 74,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgeForest",
-      "Name": null,
-      "Tile": "109, 96",
-      "Type": "Forage",
-      "ID": 74,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgeForest",
-      "Name": null,
-      "Tile": "143, 119",
-      "Type": "Forage",
-      "ID": 499,
+      "ID": 373,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
