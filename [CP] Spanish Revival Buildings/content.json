@@ -1,0 +1,368 @@
+{
+	"Format": "1.23.0",
+
+	"ConfigSchema": {
+		"Seasonal": {
+			"AllowValues": "true, false",
+			"Default": "true"
+			},
+	},
+
+	"Changes": [
+
+	//Farmhouse
+		{
+		"LogName": "Houses",
+		"Action": "EditImage",
+		"Target": "Buildings/houses",
+		"FromFile": "assets/base/houses.png",
+		},
+		{
+		"LogName": "House Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/houses_PaintMask",
+		"FromFile": "assets/base/houses_PaintMask.png",
+		},
+		{
+		"LogName": "Seasonal Houses",
+		"Action": "EditImage",
+		"Target": "Buildings/houses",
+		"FromFile": "assets/{{season}}/houses.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			}
+		},
+
+	//Mailbox
+		{
+		"LogName": "Mailbox",
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_outdoorsTileSheet",
+        "FromFile": "assets/base/mailbox.png",
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		},
+		{
+		"LogName": "Seasonal Mailbox",
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_outdoorsTileSheet",
+        "FromFile": "assets/{{season}}/mailbox.png",
+        "PatchMode": "Overlay",
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"When": { 
+			"Seasonal": "true",
+			},
+		},
+
+	//Barns
+		{
+		"LogName": "Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Barn",
+		"FromFile": "assets/base/Barn.png",
+		},
+		{
+		"LogName": "Seasonal Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Barn",
+		"FromFile": "assets/{{season}}/Barn.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			}
+		},
+		{
+		"LogName": "Big Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Big Barn",
+		"FromFile": "assets/base/Big Barn.png",
+		},
+		{
+		"LogName": "Seasonal Big Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Big Barn",
+		"FromFile": "assets/{{season}}/Big Barn.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			}
+		},
+		{
+		"LogName": "Deluxe Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Barn",
+		"FromFile": "assets/base/Deluxe Barn.png",
+		},
+		{
+		"LogName": "Seasonal Deluxe Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Barn",
+		"FromFile": "assets/{{season}}/Deluxe Barn.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			}
+		},
+		{
+		"LogName": "Barn Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Barn_PaintMask",
+		"FromFile": "assets/base/Deluxe Barn_PaintMask.png",
+		},
+		
+	//Coops
+		{
+		"LogName": "Coop",
+		"Action": "EditImage",
+		"Target": "Buildings/Coop",
+		"FromFile": "assets/base/Coop.png",
+		},
+		{
+		"LogName": "Seasonal Coop",
+		"Action": "EditImage",
+		"Target": "Buildings/Coop",
+		"FromFile": "assets/{{season}}/Coop.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			}
+		},
+		{
+		"LogName": "Big Coop",
+		"Action": "EditImage",
+		"Target": "Buildings/Big Coop",
+		"FromFile": "assets/base/Big Coop.png",
+		},
+		{
+		"LogName": "Seasonal Big Coop",
+		"Action": "EditImage",
+		"Target": "Buildings/Big Coop",
+		"FromFile": "assets/{{season}}/Big Coop.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			}
+		},
+		{
+		"LogName": "Deluxe Coop",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Coop",
+		"FromFile": "assets/base/Deluxe Coop.png",
+		},
+		{
+		"LogName": "Seasonal Deluxe Coop",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Coop",
+		"FromFile": "assets/{{season}}/Deluxe Coop.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			}
+		},
+		{
+		"LogName": "Coop Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Coop_PaintMask",
+		"FromFile": "assets/base/Deluxe Coop_PaintMask.png",
+		},
+
+	//Sheds
+		{
+		"LogName": "Shed",
+		"Action": "EditImage",
+		"Target": "Buildings/Shed",
+		"FromFile": "assets/base/Shed.png",
+		},
+		// {
+		// "LogName": "Seasonal Shed",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Shed",
+		// "FromFile": "assets/{{season}}/Shed.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+		{
+		"LogName": "Big Shed",
+		"Action": "EditImage",
+		"Target": "Buildings/Big Shed",
+		"FromFile": "assets/base/Big Shed.png",
+		},
+		// {
+		// "LogName": "Seasonal Big Shed",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Big Shed",
+		// "FromFile": "assets/{{season}}/Big Shed.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+	//Greenhouse
+		{
+		"LogName": "Greenhouse",
+		"Action": "EditImage",
+		"Target": "Buildings/Greenhouse",
+		"FromFile": "assets/base/Greenhouse.png",
+		},
+		// {
+		// "LogName": "Seasonal Greenhouse",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Greenhouse",
+		// "FromFile": "assets/{{season}}/Greenhouse.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+	//Gold Clock
+		{
+		"LogName": "Gold Clock",
+		"Action": "EditImage",
+		"Target": "Buildings/Gold Clock",
+		"FromFile": "assets/base/Gold Clock.png",
+		},
+		// {
+		// "LogName": "Seasonal Gold Clock",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Gold Clock",
+		// "FromFile": "assets/{{season}}/Gold Clock.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+	//Island House
+		{
+		"LogName": "Island House",
+		"Action": "EditImage",
+		"Target": "Maps/island_tilesheet_1",
+			"FromArea": { "X": 0, "Y": 0, "Width": 112, "Height": 128 },
+			"ToArea": { "X": 112, "Y": 496, "Width": 112, "Height": 128 },
+		"FromFile": "assets/base/Island_House.png",
+		},
+		{
+		"LogName": "Island House Porch",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/island_tilesheet_1",
+			"FromArea": { "X": 0, "Y": 128, "Width": 112, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 624, "Width": 112, "Height": 16 },
+		"FromFile": "assets/base/Island_House.png",
+		},
+		// {
+		// "LogName": "Seasonal Island House",
+		// "Action": "EditImage",
+		// "Target": "Maps/island_tilesheet_1",
+			// "FromArea": { "X": 0, "Y": 0, "Width": 112, "Height": 144 },
+			// "ToArea": { "X": 112, "Y": 496, "Width": 112, "Height": 144 },
+		// "FromFile": "assets/{{season}}/Island_House.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+	//Mill
+		{
+		"LogName": "Mill",
+		"Action": "EditImage",
+		"Target": "Buildings/Mill",
+		"FromFile": "assets/base/Mill.png",
+		},
+		// {
+		// "LogName": "Seasonal Mill",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Mill",
+		// "FromFile": "assets/{{season}}/Mill.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+	//Silo
+		{
+		"LogName": "Silo",
+		"Action": "EditImage",
+		"Target": "Buildings/Silo",
+		"FromFile": "assets/base/Silo.png",
+		},
+		// {
+		// "LogName": "Seasonal Silo",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Silo",
+		// "FromFile": "assets/{{season}}/Silo.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+	//Stable
+		{
+		"LogName": "Stable",
+		"Action": "EditImage",
+		"Target": "Buildings/Stable",
+		"FromFile": "assets/base/Stable.png",
+		},
+		// {
+		// "LogName": "Seasonal Stable",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Stable",
+		// "FromFile": "assets/{{season}}/Stable.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+		{
+		"LogName": "Stable Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/Stable_PaintMask",
+		"FromFile": "assets/base/Stable_PaintMask.png",
+		},
+
+	//Slime Hutch
+		{
+		"LogName": "Slime Hutch",
+		"Action": "EditImage",
+		"Target": "Buildings/Slime Hutch",
+		"FromFile": "assets/base/Slime Hutch.png",
+		},
+		// {
+		// "LogName": "Seasonal Slime Hutch",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Slime Hutch",
+		// "FromFile": "assets/{{season}}/Slime Hutch.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+	//Well
+		{
+		"LogName": "Well",
+		"Action": "EditImage",
+		"Target": "Buildings/Well",
+		"FromFile": "assets/base/Well.png",
+		},
+		// {
+		// "LogName": "Seasonal Well",
+		// "Action": "EditImage",
+		// "Target": "Buildings/Well",
+		// "FromFile": "assets/{{season}}/Well.png",
+		// "PatchMode": "Overlay",
+		// "When": {
+		// 	"Seasonal": "true",
+		// 	}
+		// },
+
+
+	]
+}
