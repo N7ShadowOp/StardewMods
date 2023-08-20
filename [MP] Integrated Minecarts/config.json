@@ -1,5 +1,5 @@
 {
-  "BusStopOrder": "01.",
+  "BusStopOrder": "20.",
   "CommunityCenterOrder": "02.",
   "EastScarpOrder": "18.",
   "EastScarpDeepMountOrder": "13.",
@@ -18,7 +18,7 @@
   "SecretWoodsOrder": "17.",
   "TownOrder": "03.",
   "DesertOrder": "19.",
-  "FarmOrder": "20.",
+  "FarmOrder": "01.",
   "MountainOrder": "21.",
   "OasisGreenhouseOrder": "97.",
   "BeachOrder": "98.",
@@ -28,7 +28,7 @@
   "EnableEastScarpDeepMount": "true",
   "EnableEastScarpDeepDark": "true",
   "EnableForestNW": "true",
-  "EnableForestSE": "true",
+  "EnableForestSE": "false",
   "EnableRailroad": "true",
   "EnableRSVCableCar": "true",
   "EnableRSVEast": "true",
@@ -38,11 +38,11 @@
   "EnableRSVSummitWest": "true",
   "EnableSecretWoods": "true",
   "EnableDesert": "true",
-  "EnableFarm": "false",
+  "EnableFarm": "true",
   "EnableMountain": "true",
   "EnableOasisGreenhouse": "true",
   "EnableBeach": "true",
   "EnableFarmCave": "true",
-  "FarmX": "69",
-  "FarmY": "15"
+  "FarmX": "76",
+  "FarmY": "12"
 }
