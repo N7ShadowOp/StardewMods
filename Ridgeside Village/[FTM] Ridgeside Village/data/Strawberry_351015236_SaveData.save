@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Lightning",
   "LNOSCounter": {
     "RSV Summit Farm Initial Debris": 1,
     "Summit Farm large objects": 1
@@ -12,17 +12,6 @@
       "Tile": "59, 43",
       "Type": "ResourceClump",
       "ID": 602,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
-      "Tile": "42, 62",
-      "Type": "ResourceClump",
-      "ID": 672,
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -177,17 +166,6 @@
       "Tile": "29, 41",
       "Type": "ResourceClump",
       "ID": 602,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
-      "Tile": "48, 46",
-      "Type": "ResourceClump",
-      "ID": 672,
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -856,17 +834,6 @@
     {
       "MapName": "Custom_Ridgeside_SummitFarm",
       "Name": null,
-      "Tile": "55, 44",
-      "Type": "Forage",
-      "ID": 678,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
       "Tile": "37, 58",
       "Type": "Forage",
       "ID": 295,
@@ -969,17 +936,6 @@
       "Tile": "50, 69",
       "Type": "Forage",
       "ID": 450,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
-      "Tile": "80, 50",
-      "Type": "Forage",
-      "ID": 679,
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -1373,17 +1329,6 @@
     {
       "MapName": "Custom_Ridgeside_SummitFarm",
       "Name": null,
-      "Tile": "68, 67",
-      "Type": "Forage",
-      "ID": 679,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
       "Tile": "42, 58",
       "Type": "Forage",
       "ID": 343,
@@ -1475,17 +1420,6 @@
       "Tile": "24, 53",
       "Type": "Forage",
       "ID": 343,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
-      "Tile": "76, 65",
-      "Type": "Forage",
-      "ID": 679,
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -2044,17 +1978,6 @@
     {
       "MapName": "Custom_Ridgeside_SummitFarm",
       "Name": null,
-      "Tile": "81, 57",
-      "Type": "Forage",
-      "ID": 678,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
       "Tile": "87, 71",
       "Type": "Forage",
       "ID": 343,
@@ -2264,17 +2187,6 @@
     {
       "MapName": "Custom_Ridgeside_SummitFarm",
       "Name": null,
-      "Tile": "80, 65",
-      "Type": "Forage",
-      "ID": 678,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
       "Tile": "66, 50",
       "Type": "Forage",
       "ID": 343,
@@ -2377,17 +2289,6 @@
       "Tile": "77, 70",
       "Type": "Forage",
       "ID": 343,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
-      "Tile": "43, 73",
-      "Type": "Forage",
-      "ID": 679,
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -2553,17 +2454,6 @@
       "Tile": "51, 59",
       "Type": "Forage",
       "ID": 295,
-      "DaysUntilExpire": 0,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_SummitFarm",
-      "Name": null,
-      "Tile": "53, 44",
-      "Type": "Forage",
-      "ID": 679,
       "DaysUntilExpire": 0,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -3133,9 +3023,9 @@
     {
       "MapName": "Custom_Ridgeside_RidgeForest",
       "Name": null,
-      "Tile": "128, 80",
+      "Tile": "99, 9",
       "Type": "Forage",
-      "ID": 499,
+      "ID": 103,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -3144,20 +3034,9 @@
     {
       "MapName": "Custom_Ridgeside_RidgeForest",
       "Name": null,
-      "Tile": "24, 33",
+      "Tile": "35, 44",
       "Type": "Forage",
-      "ID": 168,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Ridgeside_RidgeForest",
-      "Name": null,
-      "Tile": "141, 86",
-      "Type": "Forage",
-      "ID": 499,
+      "ID": 373,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
