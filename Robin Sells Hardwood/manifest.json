@@ -1,0 +1,13 @@
+{
+  "Name": "Robin Sells Hardwood",
+  "Author": "MortaliB",
+  "Version": "1.0",
+  "Description": "You can now buy Hardwood at Robin's Shop.",
+  "UniqueID": "MortaliB.RobinSellsHardwood",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+	"MinimumVersion": "1.0.5"
+  }
+}
